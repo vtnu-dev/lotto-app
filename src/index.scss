@@ -1,0 +1,40 @@
+// Global SCSS-files imports
+@import './scss/modal';
+@import './scss/reset';
+@import './scss/global';
+
+//================================================================================//
+// Mixins
+@import './scss/_mixins/reset.scss';
+@import './scss/_mixins/media.scss';
+@import './scss/_mixins/container.scss';
+@import './scss/_mixins/flex.scss';
+/*==============================================================================*/
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	color: #fff;
+	background-color: #112d49;
+}
+
+.btn {
+	padding: 1.5rem;
+	font-size: 15px;
+	border-radius: 5px;
+	margin: 10px;
+	border: 0;
+	box-shadow: 5px 5px 10px #000;
+	background-color: lightyellow;
+	cursor: pointer;
+	transition: transform 0.1s;
+
+	&:active {
+		transform: translate(0px, 5px);
+	}
+}

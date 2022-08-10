@@ -1,0 +1,150 @@
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	padding: 0 15px;
+}
+.heading {
+	max-width: 60%;
+	font-size: 6rem;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: rgb(207, 26, 20);
+	text-shadow: 2px 2px 15px #000;
+	animation: animate__slideInDown;
+
+	@media (max-width: 700px) {
+		font-size: 5rem;
+	}
+		@media (max-width: 500px) {
+		font-size: 3rem;
+	}
+
+	&__btn {
+		background-color: gold;
+		animation-delay: 1s;
+
+		@media (max-width: 500px) {
+			margin-top: 20px;
+			padding: 10px;
+		}
+	}
+}
+
+.numbers {
+	&__text {
+		font-size: 6rem;
+		line-height: 1;
+		color: gold;
+		font-weight: bold;
+		margin-top: 20px;
+		animation-duration: 3s;
+
+		@media (max-width: 700px) {
+			font-size: 5rem;
+		}
+			@media (max-width: 450px) {
+			font-size: 3rem;
+		}
+	}
+
+	&__btns {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		max-width: 350px;
+		max-height: 250px;
+		flex-wrap: wrap;
+		margin: 40px auto 20px;
+
+		@media (max-width: 350px) {
+			margin: 40px auto 10px;
+		}
+
+	}
+	&__btn {
+		border: 1px solid transparent;
+		transition: background-color 0.3s, border 0.3s, transform 0.3s;
+		&:hover {
+			background-color: gold;
+			border: 1px solid rgba(0, 0, 0, 0.67);
+		}
+
+		@media (max-width: 350px) {
+			margin: 7px;
+		}
+	}
+
+	&__btns-group {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	&__btns-draw {
+		border: 1px solid transparent;
+		transition: border 0.3s, transform 0.3s;
+		background-color: lightgreen;
+
+		&:hover {
+			border: 1px solid rgba(0, 0, 0, 0.67);
+		}
+	}
+
+	&__btns-reset {
+		border: 1px solid transparent;
+		transition: box-shadow 0.3s, border 0.3s, transform 0.3s;
+		background-color: lightcoral;
+
+		&:hover {
+			border: 1px solid rgba(0, 0, 0, 0.67);
+		}
+	}
+
+	&__chosen {
+		font-size: 7rem;
+		line-height: 1;
+		letter-spacing: 3px;
+		text-shadow: 0px 0px 10px rgb(0, 0, 0);
+		font-weight: bold;
+
+			@media (max-width: 700px) {
+			font-size: 5rem;
+		}
+			@media (max-width: 450px) {
+			font-size: 3rem;
+		}
+
+		&-row {
+			display: flex;
+			justify-content: space-evenly;
+			margin: 20px 0;
+			animation-duration: 3s;
+		}
+
+		&-one {
+			color: greenyellow;
+		}
+		&-two {
+			color: gold;
+		}
+	}
+	&__attempts {
+		font-size: 2rem;
+		font-weight: 100;
+
+		&__number {
+			font-weight: bold;
+			font-size: 3rem;
+		}
+	}
+	
+	&__win {
+		color: red;
+		animation: bounce;
+	}
+}
