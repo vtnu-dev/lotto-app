@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lotto-app/static/css/main.343078a4.css",
-    "main.js": "/lotto-app/static/js/main.9ed9eb24.js",
+    "main.css": "/lotto-app/static/css/main.f301a9e2.css",
+    "main.js": "/lotto-app/static/js/main.7b858628.js",
     "index.html": "/lotto-app/index.html",
-    "main.343078a4.css.map": "/lotto-app/static/css/main.343078a4.css.map",
-    "main.9ed9eb24.js.map": "/lotto-app/static/js/main.9ed9eb24.js.map"
+    "main.f301a9e2.css.map": "/lotto-app/static/css/main.f301a9e2.css.map",
+    "main.7b858628.js.map": "/lotto-app/static/js/main.7b858628.js.map"
   },
   "entrypoints": [
-    "static/css/main.343078a4.css",
-    "static/js/main.9ed9eb24.js"
+    "static/css/main.f301a9e2.css",
+    "static/js/main.7b858628.js"
   ]
 }
