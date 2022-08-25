@@ -1,4 +1,4 @@
-# React Project for the React Course
+# React Project Lotto App
 
 ## Available Scripts
 
